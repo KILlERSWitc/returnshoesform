@@ -1,0 +1,46 @@
+<HTML>
+    <HEAD>
+      <TITLE>Return Shoes</TITLE>
+    </HEAD>
+    <BODY>
+      <H1>Return Nike Shoes Form</H1>
+      <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
+        First Name : <INPUT type="text" name="firstname" placeholder="Enter name here">
+        Second Name : <INPUT type="text" name="secondname"  placeholder="Enter surname here">
+        <BR>
+        <BR>
+        <!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
+        <INPUT type="radio" name="gender" value="male">Male<BR>
+        <INPUT type="radio" name="gender" value="female">Female  
+        <BR>
+        <BR>
+        <!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
+        Email: <INPUT type="email" name="mail" placeholder="e-mail address">
+        <BR>
+        <BR>
+        Home Address: <INPUT type="Home name="Address" placeholder="Enter Your Hone Adress">
+        <BR>
+        <BR>
+          Comment :<BR>        
+          <TEXTAREA rows="6" cols="50" name="commentfield"></TEXTAREA>
+          <BR>
+          <SELECT name="Shoes Chooser">
+            <OPTION value="Air Jordan 1">Air Jordan 1</OPTION>
+            <OPTION value="Air Jordan 2">Air Jordan 2</OPTION>
+            <OPTION value="Air Jordan 3">Air Jordan 3</OPTION>
+            <OPTION value="MOre">More</OPTION>
+          </SELECT>
+          <BR>
+          <BR>
+          <INPUT TYPE="submit" value="Return Shoes">
+          <INPUT TYPE="reset" value="Reset">
+            <BR>
+              <BR>
+          <section>
+            <li><a href="https://killerswitc.github.io/Ict-Creative-3/#">Go Back</a></li> 
+          </section>
+          
+      </FORM>
+      
+    </BODY>  
+  </HTML>
